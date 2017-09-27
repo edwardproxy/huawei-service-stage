@@ -1,4 +1,4 @@
-FROM java:8-jdk
+FROM mongo
 
 WORKDIR /home/apps/
 ADD target/smdtestproject-1.0.0.jar .

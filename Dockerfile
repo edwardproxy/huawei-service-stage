@@ -1,7 +1,7 @@
 FROM java:8-jdk
 
 WORKDIR /home/apps/
-ADD target/smdtestjava-1.0.0.jar .
+ADD target/smdtestproject-1.0.0.jar .
 ADD target/lib ./lib
 ADD start.sh .
 
